@@ -5,7 +5,7 @@ import (
 	"flag"
 	"fmt"
 	"github.com/GeertJohan/go.rice"
-	"github.com/rob121/broadlinkgo"
+	"github.com/GunoH/broadlinkgo"
 	"io/ioutil"
 	"log"
 	"net/http"
