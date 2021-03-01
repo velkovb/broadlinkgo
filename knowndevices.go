@@ -36,6 +36,7 @@ var knownDevices = []knownDevice{
 	knownDevice{deviceType: 0x278b, name: "Broadlink RM2 Pro Plus BL", supported: true, ir: true, rf: true, power: false},
 	knownDevice{deviceType: 0x279d, name: "Broadlink RM3 Pro Plus", supported: true, ir: true, rf: true, power: false},
 	knownDevice{deviceType: 0x6026, name: "Broadlink RM4 Pro Plus", supported: true, ir: true, rf: true, power: false, requestHeader: []byte{0x04, 0x00}, codeSendingHeader: []byte{0xd0, 0x00}},
+	knownDevice{deviceType: 0x649b, name: "Broadlink RM4 Pro", supported: true, ir: true, rf: true, power: false, requestHeader: []byte{0x04, 0x00}, codeSendingHeader: []byte{0xd0, 0x00}},
 	knownDevice{deviceType: 0x27a9, name: "Broadlink RM3 Pro Plus v2", supported: true, ir: true, rf: true, power: false},
 	knownDevice{deviceType: 0, name: "Broadlink SP1", supported: true, ir: false, rf: false, power: true},
 	knownDevice{deviceType: 0x2711, name: "Broadlink SP2", supported: true, ir: false, rf: false, power: true},
